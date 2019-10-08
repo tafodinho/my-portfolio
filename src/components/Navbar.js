@@ -13,7 +13,7 @@ class Navbar extends React.PureComponent {
           .getElementById('contact')
           .scrollIntoView({ behavior: 'smooth' });
       }
-    });
+    }); 
   }
 
   render() {

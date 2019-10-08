@@ -1,30 +1,30 @@
 export default [
   {
-    input: 'Justin.currentLocation',
-    return: '"San Jose, CA"',
+    input: 'Tafang Joshua',
+    return: '"Molyko, Buea CMR"',
   },
   {
     input: 'Justin.contactInfo',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
+      '["<a href="mailto:tafodinho@gmail.com">tafodinho@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/tafang-joshua">LinkedIn</a>", "<a rel="noopener" href="https://github.com/tafodinho">github</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Tafang.resume',
     return:
       '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
-    return: '["design", "basketball", "cooking", "starcraft"]',
+    input: 'Tafang.interests',
+    return: '["design", "football", "travelling", "gaming"]',
   },
   {
-    input: 'Justin.education',
+    input: 'Tafang.education',
     return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+      '"B.Engr. Software Engineering - University of Buea, Cameroon"',
   },
   {
-    input: 'Justin.skills',
+    input: 'Tafang.skills',
     return:
-      '["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]',
+      '["JavaScript", "Ruby", "React", "Redux", "Rails", "HTML", "git", "CSS", "Linux", "Python"]',
   },
 ];
