@@ -4,7 +4,7 @@ export default [
     return: '"Molyko, Buea CMR"',
   },
   {
-    input: 'Justin.contactInfo',
+    input: 'Tafang.contactInfo',
     return:
       '["<a href="mailto:tafodinho@gmail.com">tafodinho@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/tafang-joshua">LinkedIn</a>", "<a rel="noopener" href="https://github.com/tafodinho">github</a>"]',
   },
