@@ -1,14 +1,25 @@
 import bookstore from 'images/bookstore.png';
-import stockmarketchart from 'images/stockmarketchart.jpg';
+import weather from 'images/weatehr.png';
 import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
 import wakeybackgrounds from 'images/wakeybackgrounds.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
-import tomsmetal from 'images/tomsmetal.jpg';
+import zanko from 'images/zankotv.png';
 
 // image can be any size. just make sure it is close to a 1:1 ratio - a square.
 
 export default [
+  {
+    title: "Zanko TV",
+    description:
+      'This is a realization of <a href="https://dribbble.com/shots/6868524-IPTV-Website-user-interface">this</a> design by <a href="https://dribbble.com/aichdesign">Aich Design</a>. The site supports mobile, tablet, and desktop sizes. Media queries only - no external libraries or JavaScript.',
+    skills: ['HTML5', 'CSS3'],
+    image: zanko,
+    links: {
+      github: 'https://github.com/tafodinho/zanko-tv/',
+      preview: 'https://tafodinho.github.io/zanko-tv/',
+    },
+  },
   {
     title: 'Bookstore',
     description:
@@ -23,60 +34,30 @@ export default [
   {
     title: 'Weather app',
     description:
-      'This project is based off this <a href="https://www.freecodecamp.com/challenges/chart-the-stock-market">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://developer.tradier.com/documentation">Tradier API</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
+      'This project is based off this <a href="https://www.theodinproject.com/courses/javascript/lessons/weather-app">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://api.openweathermap.org/">Open weathermap APi</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS'],
-    image: stockmarketchart,
+    image: weather,
     links: {
-      github: 'https://github.com/vai0/stockmarketchart',
-      preview: 'https://stock.justinchi.me/',
+      github: 'https://github.com/tafodinho/My-weather',
+      preview: 'https://raw.githack.com/tafodinho/My-weather/dev/dist/index.html',
     },
   },
   {
-    title: 'Wakey Alarm Clock',
+    title: 'Calculator app',
     description:
-      'My first major app built with ReactJS and it was a tremendous learning experience. This project was created for a good friend - check out her <a href="http://www.xiaotongyuchi.com/wakeyalarm">mock-up</a>! Polymer components were taken directly from Google spec to ensure smooth animations on mobile (this was before Material Components existed).',
+      'Applied techniques learned from <a href="https://github.com/microverseinc/project-react-calculator/blob/master/milestones/MILESTONE_5.md">React Calculator</a> - writing requirements, iterating, and structuring app as an MVC. This really helped me build a much better foundation in JavaScript for web development. Aside from the Material Components library for the ripples, no frameworks were used. Design is based off the original <a href="https://play.google.com/store/apps/details?id=com.google.android.calculator&hl=en">Google Calculator on Android</a>.',
     skills: [
       'HTML5',
       'CSS3',
       'Sass',
-      'JavaScript',
-      'ReactJS',
-      'Polymer',
-      'Material Design',
-    ],
-    image: wakeyalarmclock,
-    links: {
-      github: 'https://github.com/vai0/alarmclock',
-      preview: 'https://alarmclock.justinchi.me/',
-    },
-  },
-  {
-    title: 'Wakey Weather Backgrounds',
-    description:
-      'Animated backgrounds for when the alarm is triggered in the <a href="https://justinchi.me/alarmclock/">Wakey Alarm Clock</a> app. CSS animations and a bit of JavaScript for the snow and rain. No external libraries.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
-    image: wakeybackgrounds,
-    links: {
-      github: 'https://github.com/vai0/weather-animations',
-      preview: 'https://weather-anim.justinchi.me/',
-    },
-  },
-  {
-    title: 'Google Calculator',
-    description:
-      'Applied techniques learned from <a href="https://watchandcode.com/p/practical-javascript">Practical Javascript</a> - writing requirements, iterating, and structuring app as an MVC. This really helped me build a much better foundation in JavaScript for web development. Aside from the Material Components library for the ripples, no frameworks were used. Design is based off the original <a href="https://play.google.com/store/apps/details?id=com.google.android.calculator&hl=en">Google Calculator on Android</a>.',
-    skills: [
-      'HTML5',
-      'CSS3',
-      'Sass',
-      'JavaScript',
+      'JSX',
       'ES6',
-      'Material Components',
+      'React',
     ],
     image: calculator,
     links: {
-      github: 'https://github.com/vai0/material_calculator',
-      preview: 'https://calc.justinchi.me/',
+      github: 'https://github.com/tafodinho/react-calculator/',
+      preview: 'https://josh-calculator.herokuapp.com/',
     },
   },
   {
@@ -86,19 +67,9 @@ export default [
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
     image: portfolio,
     links: {
-      github: 'https://github.com/vai0/portfolio',
-      preview: 'https://www.justinchi.me/',
+      github: 'https://github.com/tafodinho/my-portfolio',
+      preview: 'https://tafang-portfolio.herokuapp.com/',
     },
   },
-  {
-    title: "Tom's Metal Site",
-    description:
-      'A revamped version of the website of the company at my first job. You can see the original site <a href="http://www.tomsmetal.com/">here</a>. The site supports mobile, tablet, and desktop sizes. Media queries only - no external libraries or JavaScript.',
-    skills: ['HTML5', 'CSS3'],
-    image: tomsmetal,
-    links: {
-      github: 'https://github.com/vai0/tomsmetal_site',
-      preview: 'https://tomsmetal.justinchi.me/',
-    },
-  },
+  
 ];
