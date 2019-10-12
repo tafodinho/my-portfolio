@@ -1,5 +1,5 @@
 import bookstore from 'images/bookstore.png';
-import weather from 'images/weatehr.png';
+import weather from 'images/weather.png';
 import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
 import wakeybackgrounds from 'images/wakeybackgrounds.png';
 import calculator from 'images/calculator.jpg';
