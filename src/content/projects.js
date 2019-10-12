@@ -1,4 +1,4 @@
-import bookstore from 'images/bookstore.jpg';
+import bookstore from 'images/bookstore.png';
 import stockmarketchart from 'images/stockmarketchart.jpg';
 import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
 import wakeybackgrounds from 'images/wakeybackgrounds.png';
