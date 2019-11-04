@@ -11,7 +11,7 @@ export default [
   {
     input: 'Tafang.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/tafang_joshua.pdf" target="_blank">tafangjoshua.pdf</a>"',
   },
   {
     input: 'Tafang.interests',
