@@ -1,8 +1,8 @@
 {
-  "name": "justin-chi-portfolio",
-  "description": "Justin's Portfolio",
+  "name": "tafang-joshua-portfolio",
+  "description": "Tafang's Portfolio",
   "version": "1.0.0",
-  "author": "Justin Chi",
+  "author": "Tafang Joshua",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
