@@ -43,11 +43,12 @@ follow to install the Heroku cli: https://devcenter.heroku.com/articles/heroku-c
 
 ### Install App on Heroku
 
-In Project directory:
+```In Project directory:
 Run: `heroku create`,
 Verify with: `git remote -v,
 You can then doploy app to heroku with: `git push heroku master` --Provided you are in the master branch else run
 `git push heroku branch-name:master`
+```
 
 ## Authors
 
