@@ -1,5 +1,6 @@
 import bookstore from 'images/bookstore1.png';
 import weather from 'images/weather.png';
+import connectme from 'images/connectme.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
 import zanko from 'images/zankotv.png';
@@ -35,13 +36,13 @@ export default [
     title: 'ConnectMe',
     description:
       'This is a social network application with features similar to that of facebook such as sending friend request, receiving friend request, accepting request, making post commenting and liking the post. I achieved this using Ruby on rails, HTML, CSS, Sass and PostgreSql',
-    skills: ['Ruby', 'Ruby on Rails', 'HTML5', 'CSS3', 'Sass', 'JavaScript'],
-    image: portfolio,
+    skills: ['Ruby', 'Ruby on Rails', 'HTML5', 'CSS3', 'PostgreSql'],
+    image: connectme,
     links: {
       github: 'https://github.com/tafodinho/my-portfolio',
       preview: 'https://tafang-portfolio.herokuapp.com/',
     },
-    category: "others",
+    category: "regular",
   },
   {
     title: 'Weather app',
