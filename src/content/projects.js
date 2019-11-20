@@ -1,5 +1,7 @@
 import bookstore from 'images/bookstore1.png';
 import weather from 'images/weather.png';
+import battleship from 'images/battleship.png';
+import todo from 'images/todo.png';
 import connectme from 'images/connectme.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
@@ -88,14 +90,26 @@ export default [
     category: "regular",
   },
   {
-    title: 'News Crawler Site',
+    title: 'Battleship',
     description:
-      'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
-    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
-    image: portfolio,
+      "A multiplayer battleship game where the main goal is to destroy all your opponent's ships at sea. The full description of the game can be found",
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
+    image: battleship,
     links: {
-      github: 'https://github.com/tafodinho/my-portfolio',
-      preview: 'https://tafang-portfolio.herokuapp.com/',
+      github: 'https://github.com/tafodinho/battleship',
+      preview: 'https://raw.githack.com/tafodinho/battleship/new-fixes-to-game/dist/index.html',
+    },
+    category: "others",
+  },
+  {
+    title: 'Things Todo(A todo app)',
+    description:
+      "A todo list app to keep track of your activities. You can also group todos according to priority, or place individual todos into projects.",
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
+    image: todo,
+    links: {
+      github: 'https://github.com/tafodinho/things-todo',
+      preview: 'https://raw.githack.com/tafodinho/things-todo/master/dist/index.html',
     },
     category: "others",
   },

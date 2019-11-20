@@ -13,7 +13,7 @@ class Hero extends React.PureComponent {
         <Typewriter className="hero-title" text="Tafang Joshua" />
         <div className="hero-description">
           I am a fullstack web developer. My passion is building simple,
-          beautiful user experiences using react technology.<br />Check out my{' '}
+          beautiful user experiences using react technology and building application logic with Ruby and Ruby on Rails.<br />Check out my{' '}
           <Scrollchor to="#projects">side-projects</Scrollchor> below.
         </div>
       </div>
