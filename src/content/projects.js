@@ -1,7 +1,5 @@
 import bookstore from 'images/bookstore.png';
 import weather from 'images/weather.png';
-import wakeyalarmclock from 'images/wakeyalarmclock.jpg';
-import wakeybackgrounds from 'images/wakeybackgrounds.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
 import zanko from 'images/zankotv.png';
@@ -19,6 +17,7 @@ export default [
       github: 'https://github.com/tafodinho/zanko-tv/',
       preview: 'https://tafodinho.github.io/zanko-tv/',
     },
+    category: "regular",
   },
   {
     title: 'Bookstore',
@@ -30,6 +29,7 @@ export default [
       github: 'https://github.com/tafodinho/react-redux-bookstore',
       preview: 'https://tafang-bookstore.herokuapp.com/',
     },
+    category: "regular",
   },
   {
     title: 'Weather app',
@@ -41,6 +41,7 @@ export default [
       github: 'https://github.com/tafodinho/My-weather',
       preview: 'https://raw.githack.com/tafodinho/My-weather/dev/dist/index.html',
     },
+    category: "regular",
   },
   {
     title: 'Calculator app',
@@ -59,6 +60,7 @@ export default [
       github: 'https://github.com/tafodinho/react-calculator/',
       preview: 'https://josh-calculator.herokuapp.com/',
     },
+    category: "regular",
   },
   {
     title: 'Portfolio',
@@ -70,6 +72,18 @@ export default [
       github: 'https://github.com/tafodinho/my-portfolio',
       preview: 'https://tafang-portfolio.herokuapp.com/',
     },
+    category: "regular",
   },
-  
+  {
+    title: 'News Crawler Site',
+    description:
+      'This page! Responsive website built with ReactJS. The site content is passed in as JSON data, auto-generating components for easy maintenance.',
+    skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ReactJS'],
+    image: portfolio,
+    links: {
+      github: 'https://github.com/tafodinho/my-portfolio',
+      preview: 'https://tafang-portfolio.herokuapp.com/',
+    },
+    category: "others",
+  },
 ];
