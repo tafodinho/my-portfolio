@@ -39,8 +39,8 @@ export default [
     skills: ['Ruby', 'Ruby on Rails', 'HTML5', 'CSS3', 'PostgreSql'],
     image: connectme,
     links: {
-      github: 'https://github.com/tafodinho/my-portfolio',
-      preview: 'https://tafang-portfolio.herokuapp.com/',
+      github: 'https://github.com/tafodinho/connect-me',
+      preview: 'https://josh-connect-me-app.herokuapp.com',
     },
     category: "regular",
   },
