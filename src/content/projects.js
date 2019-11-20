@@ -32,6 +32,18 @@ export default [
     category: "regular",
   },
   {
+    title: 'ConnectMe',
+    description:
+      'This is a social network application with features similar to that of facebook such as sending friend request, receiving friend request, accepting request, making post commenting and liking the post. I achieved this using Ruby on rails, HTML, CSS, Sass and PostgreSql',
+    skills: ['Ruby', 'Ruby on Rails', 'HTML5', 'CSS3', 'Sass', 'JavaScript'],
+    image: portfolio,
+    links: {
+      github: 'https://github.com/tafodinho/my-portfolio',
+      preview: 'https://tafang-portfolio.herokuapp.com/',
+    },
+    category: "others",
+  },
+  {
     title: 'Weather app',
     description:
       'This project is based off this <a href="https://www.theodinproject.com/courses/javascript/lessons/weather-app">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://api.openweathermap.org/">Open weathermap APi</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
