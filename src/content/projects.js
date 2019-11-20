@@ -1,4 +1,4 @@
-import bookstore from 'images/bookstore.png';
+import bookstore from 'images/bookstore1.png';
 import weather from 'images/weather.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
@@ -20,9 +20,9 @@ export default [
     category: "regular",
   },
   {
-    title: 'Bookstore',
+    title: 'Movie CMS',
     description:
-      'Front-end of a bookstore application that will help organize and manage a bookstore. The app is fast, dynamic and responsive to actions and therefore I decided to build it with React & Redux. ',
+      'Front-end of a Movie CMS application that will help organize and manage a your movies. The app is fast, dynamic and responsive to actions as it was build it with React & Redux. ',
     skills: ['JSX', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS', 'Redux'],
     image: bookstore,
     links: {
