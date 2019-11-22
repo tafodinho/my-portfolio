@@ -25,7 +25,7 @@ export default [
   {
     title: 'Movie CMS',
     description:
-      'Front-end of a Movie CMS application that will help organize and manage a your movies. The app is fast, dynamic and responsive to actions as it was build it with React & Redux. ',
+      'Front-end of a Movie CMS application that will help organize and manage your movies. The app is fast, dynamic and responsive to actions as it was build it with React & Redux. ',
     skills: ['JSX', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS', 'Redux'],
     image: bookstore,
     links: {
@@ -37,7 +37,7 @@ export default [
   {
     title: 'ConnectMe',
     description:
-      'This is a social network application with features similar to that of facebook such as sending friend request, receiving friend request, accepting request, making post commenting and liking the post. I achieved this using Ruby on rails, HTML, CSS, Sass and PostgreSql',
+      'This is a social network application with features similar to that of Facebook, such as sending friend requests, receiving friend requests, accepting requests, making posts, commenting, and liking posts. I achieved this using Ruby on rails, HTML, CSS, Sass and PostgreSql.',
     skills: ['Ruby', 'Ruby on Rails', 'HTML5', 'CSS3', 'PostgreSql'],
     image: connectme,
     links: {
@@ -49,7 +49,7 @@ export default [
   {
     title: 'Weather app',
     description:
-      'This project is based off this <a href="https://www.theodinproject.com/courses/javascript/lessons/weather-app">challenge</a>. Wrangled with styling HighCharts and learned the use of Promises. Data is from the <a href="https://api.openweathermap.org/">Open weathermap APi</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
+      'This project is based off this <a href="https://www.theodinproject.com/courses/javascript/lessons/weather-app">challenge</a>. Wrangled with styling HighCharts, and uses Promises. Data is from the <a href="https://api.openweathermap.org/">Open weathermap APi</a>. Search autocomplete relies on the lookup endpoint and sometimes runs slow. Please be patient!',
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'ReactJS'],
     image: weather,
     links: {
@@ -92,7 +92,7 @@ export default [
   {
     title: 'Battleship',
     description:
-      "A multiplayer battleship game where the main goal is to destroy all your opponent's ships at sea. The full description of the game can be found",
+      "A multiplayer battleship game where the main goal is to destroy all your opponent's ships at sea. The full description of the game can be found <a ahref='https://www.theodinproject.com/courses/javascript/lessons/battleship'>here</a>",
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript'],
     image: battleship,
     links: {

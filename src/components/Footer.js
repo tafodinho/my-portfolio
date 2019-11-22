@@ -4,7 +4,7 @@ class Footer extends React.PureComponent {
   render() {
     return (
       <div className="footer">
-        <span>Made by Tafang Joshua © {new Date().getFullYear()}</span>
+        <span>Made by Tafang Joshua © {new Date().getFullYear()}. Designed by Justin Chi</span>
       </div>
     );
   }
